@@ -1,6 +1,6 @@
 # Ox Doorlock
 
-Door management resource, with compatibility for [ox_core](https://github.com/communityox/ox_core), [es_extended](https://github.com/esx-framework/esx_core), [nd_core](https://github.com/ND-Framework/ND_Core), and [qbox](https://github.com/Qbox-project/qbx_core).  
+Door management resource, with compatibility for [ox_core](https://github.com/communityox/ox_core), [es_extended](https://github.com/esx-framework/esx_core), [nd_core](https://github.com/ND-Framework/ND_Core), [qb-core](https://github.com/qbcore-framework/qb-core), and [qbox](https://github.com/Qbox-project/qbx_core).
 Successor to nui_doorlock with less scuff and more stuff.
 
 _The UI needs to be built - use the [latest release](https://github.com/communityox/ox_doorlock/releases/latest/download/ox_doorlock.zip) if you want to drag-n-drop._
@@ -20,20 +20,20 @@ mysql-async is no longer supported.
 
 Used for some UI elements (i.e. notifications, progress circle, input), and cache.
 
-### [ox_target](https://github.com/communityox/ox_target) (preferred) or [qtarget](https://github.com/overextended/qtarget) (deprecated)
+### [ox_target](https://github.com/communityox/ox_target) (preferred) or [qtarget](https://github.com/overextended/qtarget) (deprecated) or [qb-target](https://github.com/qbcore-framework/qb-target)
 
 (Optional) Used for lockpicking.
 
 ## Usage
 
-Use the `/doorlock` command to open the UI and enter the settings for your new door.  
+Use the `/doorlock` command to open the UI and enter the settings for your new door.
 Once you confirm the settings, activate your targeting resource (typically LALT) to select the entity (or entities) to use.
 
 Adding any arguments after the command will open the closest door to you, to easily modify it.
 
 ## Conversion
 
-Placing nui_doorlock config files into the `convert` folder will convert the data and insert it into the database.  
+Placing nui_doorlock config files into the `convert` folder will convert the data and insert it into the database.
 Success is _not_ guaranteed if using a fork on nui_doorlock, like the qb version.
 
 ## Client API
