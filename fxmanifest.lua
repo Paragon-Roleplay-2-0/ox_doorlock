@@ -12,8 +12,10 @@ author       'Overextended'
 repository   'https://github.com/communityox/ox_doorlock'
 
 --[[ Manifest ]]--
+
 shared_scripts {
 	'@ox_lib/init.lua',
+	-- '@lation_ui/init.lua',
 	'config.lua',
 }
 
